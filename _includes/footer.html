@@ -1,0 +1,11 @@
+<footer aria-label="Footer">
+  {%- if site.email -%}
+    <a href="mailto:{{ site.email }}" title="e-mail">{{ site.email }}</a><br>
+  {%- endif -%}
+  {%- if site.github -%}
+    github: <a href="https://github.com/{{ site.github }}">{{ site.github }}</a><br>
+  {%- endif -%}
+  {%- if site.twitter -%}
+    twitter: <a href="https://twitter.com/{{ site.twitter }}">{{ site.twitter }}</a><br>
+  {%- endif -%}
+</footer>

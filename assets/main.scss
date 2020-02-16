@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "zenburn";
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+ul.post-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.code, pre {
+  padding: 5px;
+  font-family: Mono;
+}
